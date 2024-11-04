@@ -1,6 +1,7 @@
 import pytest
 from prime_number import is_prime
 
+
 @pytest.mark.parametrize("number, expected", [
     (0, False),
     (1, False),
