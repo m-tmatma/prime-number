@@ -13,7 +13,8 @@ from prime_number import is_prime
     (13, True),
     (17, True),
     (19, True),
-    (20, False)
+    (20, False),
+    (21, False)
 ])
 def test_is_prime(number, expected):
     assert is_prime(number) == expected
